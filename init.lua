@@ -41,8 +41,10 @@ local ok, err = cartridge.cfg({
         'cartridge.roles.vshard-storage',
         'cartridge.roles.vshard-router',
         'cartridge.roles.metrics',
-        'app.roles.custom',
+        'app.roles.router',
+        'app.roles.cache',
     },
+    cluster_cookie = 'meteo-cluster-cookie',
 })
 
 assert(ok, tostring(err))

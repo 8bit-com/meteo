@@ -12,6 +12,9 @@ dependencies = {
     'metrics == 1.0.0-1',
     'cartridge-metrics-role == 0.1.1-1',
     'cartridge-cli-extensions == 1.1.1-1',
+    'crud == 0.14.0-1',
+    'luacov',
+    'graphql == 0.1.4',
 }
 build = {
     type = 'none';
